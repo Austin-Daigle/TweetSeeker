@@ -1,7 +1,15 @@
 # TweetSeeker 1.4
 
 TweetSeeker is a Python-based Twitter Scrapper that automatically goes with a given Twitter account name/handle and 
-extracts account data 
+extracts account data into a file named @*insert-name-here*_account_data.csv
+with the following attributes: 
+
+The following attributes are stores in comma-dilimited format of field and data for the account data file:
+
+        "accountID","accountName","screenName","description",
+        "descriptionEntities","isVerified","followersCount","friendsCount",
+        "listedCount","ratio","createdAt","timeZone","geoEnabled","location",
+        "profileURL","profileImageURL","hasProtectedTweets"
 
 ## How to Use:
 Navigate through the repository and download the newest version of TweetSeeker 
