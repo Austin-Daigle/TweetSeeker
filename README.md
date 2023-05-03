@@ -5,6 +5,7 @@ extracts account data into a file named ___@*insert-name-here*_account_data.csv_
 Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
 the format of one tweet per line using the fields in order of below (see "Tweet Data format" below)
 
+<br>
 
 **Account Data Format:**
 
@@ -20,13 +21,31 @@ the format of one tweet per line using the fields in order of below (see "Tweet 
         "favoriteCount","retweetCount","mentionedUsers","tweetEntities",
         "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"]
 
-## How to Use:
-Navigate through the repository and download the newest version of TweetSeeker (in this case, [TweetSeeker 1.4v](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py)) as a Python file. Either run the Python file
-via the command line or run it in an IDE.
+## Dependencies:
 
-Once the latest version of TweetSeeker has been executed, program launch options
-GUI will appear, asking the user to choose from either starting the program directly using
-Twitter API Developers Keys or to use AWS IAM Login details.* 
+These are the packages that are required by the latest version of TweetSeeker:
+
+
+    'tkinter'
+    'tkinter.messagebox'
+    'subprocess'
+    'requests'
+    'tweepy'
+    'csv'
+    'datetime'
+    'os'
+    'json'
+    'boto3'
+    're'
+    'Counter'
+    'pyqt5'
+
+## How to Use:
+Download and run [TweetSeeker_Dependencies_installer_v.1.2.py](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_Dependencies_installer_v1.2.py) or manually install each of the dependency packages required (see above).
+
+Then, Navigate through the repository and download [TweetSeeker](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
+
+Once the latest version of TweetSeeker has been executed, program launch options GUI will appear, asking the user to choose from either starting the program directly using Twitter API Developers Keys or to use AWS IAM Login details.* 
 
 **Program Launch Options GUI:**
 
