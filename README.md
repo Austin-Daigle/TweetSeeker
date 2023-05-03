@@ -84,6 +84,9 @@ Key manager and IAM users to be correctly setup and running with the Twitter API
 * TwitterSeeker_core_v.1.0.py - This is the basic core the Twitter Scrapper, it does not have a GUI or AWS support, it functions purly through code
 modifications to scrap the given account. This program required the Twitter API keys to be hard coded into its variables to correctly start (Also, Do not ever submit or share code with hardcoded secrets in it as this is a major breach of security). 
 * TweetSeeker_v1.0_alpha.py - Basic stable developer's build of TweetSeeker with a basic verifcation GUI and nothing else, the actual scrapping functions need to be hard coded in and this was originally an environment for my team to develop on. 
-
+* TweetSeeker_v1.0_alpha.py - 
+* TweetSeeker_v1.1_alpha.py - 
+* TweetSeeker_v1.2_alpha.py - 
+* TweetSeeker_v.1.4.py - Stable Release
 
 ## How to make AWS Secrets Manager:
