@@ -72,9 +72,7 @@ Next, the Tweet data and account data that was scrapped are saved as .csv files 
 
 * Twitter Account Analytics GUI:
 
-<img src="https://user-images.githubusercontent.com/100094056/235820591-2671c6dd-3df6-4b0d-9e73-7825baa60e52.png" alt="image" width="550"/>
-
-
+<img src="https://user-images.githubusercontent.com/100094056/235820591-2671c6dd-3df6-4b0d-9e73-7825baa60e52.png" alt="image" width="500"/>
 
 
 \* This will require an AWS Instance with the adequately configured Secret Manager service,
