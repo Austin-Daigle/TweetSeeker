@@ -93,7 +93,9 @@ modifications to scrap the given account. This program required the Twitter API 
 Keep in mind that there may be slight variations for this process depending on how Amazon Web Services updates/maintains its services. These instructions were
 created using the default documentation provided by AWS and should reviewed as well since backend implementations can be deprecated/changed for your instantiation of TweetSeeker.
 
-## Instructions for creating the AWS Secrets Manager
+It is also worth stating that setting up AWS Cost Manager and Key Manager may be in your interest to setup as it allows for easier adminstration of the overall project.
+
+__Instructions for creating the AWS Secrets Manager__
 
 1.  Log in to your AWS Management Console and navigate to the AWS Secrets Manager service.
     
@@ -118,11 +120,8 @@ created using the default documentation provided by AWS and should reviewed as w
 11.  Click on "**Next**" to proceed to the "**Review**" page.
     
 12.  Review the information you have entered for accuracy and click on "**Store secret**" to create the secret.
-    
 
-## Once you have created the secret, you can retrieve it from your application by calling the AWS Secrets Manager API or by using the AWS SDK.
-
-## Also, here are the steps for setting up IAM roles for admin and developer roles:
+## Here are the steps for setting up IAM roles for admin and developer roles:
 
 1.  Log in to your AWS Management Console and navigate to the IAM service.
     
@@ -144,4 +143,4 @@ created using the default documentation provided by AWS and should reviewed as w
     
 10.  After creating the roles, you can now assign them to users or EC2 instances that need access to the resources.
 
-It is also worth stating that setting up AWS Cost Manager and Key Manager may be in your interest to setup as it allows for easier adminstration of the overall project.
+
