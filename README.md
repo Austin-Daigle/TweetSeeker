@@ -90,3 +90,58 @@ modifications to scrap the given account. This program required the Twitter API 
 * TweetSeeker_v.1.4.py - This is the final stable release with all issues in the prior versions fixed.
 
 ## How to make AWS Secrets Manager:
+Keep in mind that there may be slight variations for this process depending on how Amazon Web Services updates/maintains its services. These instructions were
+created using the default documentation provided by AWS and should reviewed as well since backend implementations can be deprecated/changed for your instantiation of TweetSeeker.
+
+## Instructions for creating the AWS Secrets Manager
+
+1.  Log in to your AWS Management Console and navigate to the AWS Secrets Manager service.
+    
+2.  Click on the "**Store a new secret**" button.
+    
+3.  Select "**Other type of secrets**" and then choose "**Credentials for RDS database, Redshift, DocumentDB, or Secrets Manager**" from the drop-down menu.
+    
+4.  Enter the Twitter Dev API keys as the secret values. You can enter the API key in the "**username**" field and the API secret key in the "**password**" field.
+    
+5.  In the "**Secret name**" field, enter "**TweetSeeker**".
+    
+6.  Optionally, you can enter a description for the secret in the "**Description**" field.
+    
+7.  Click on "**Next**" to proceed to the "**Configure secret**" page.
+    
+8.  Choose the "**Encryption key**" option to encrypt your secret values.
+    
+9.  Choose "**Default encryption key**" or "**Custom encryption key**" based on your preference.
+    
+10.  Optionally, you can choose to rotate the secret automatically or manually.
+    
+11.  Click on "**Next**" to proceed to the "**Review**" page.
+    
+12.  Review the information you have entered for accuracy and click on "**Store secret**" to create the secret.
+    
+
+## Once you have created the secret, you can retrieve it from your application by calling the AWS Secrets Manager API or by using the AWS SDK.
+
+## Also, here are the steps for setting up IAM roles for admin and developer roles:
+
+1.  Log in to your AWS Management Console and navigate to the IAM service.
+    
+2.  Click on "**Roles**" in the left navigation menu and then click on the "**Create role**" button.
+    
+3.  Select "**AWS service**" as the trusted entity and then choose "**EC2**" from the list of services.
+    
+4.  Click on "**Next: Permissions**" to proceed to the "**Attach permissions policies**" page.
+    
+5.  For the admin role, select the "**AdministratorAccess**" policy. This policy provides full access to all AWS services and resources.
+    
+6.  For the developer role, select the "**SecretsManagerReadWrite**" policy. This policy allows read-only access to AWS Secrets Manager.
+    
+7.  Click on "**Next: Tags**" to proceed to the "**Add tags**" page. You can add tags to your roles for better organization and management of your resources.
+    
+8.  Click on "**Next: Review**" to proceed to the "**Review**" page.
+    
+9.  Review the information you have entered for accuracy and click on "**Create role**" to create the role.
+    
+10.  After creating the roles, you can now assign them to users or EC2 instances that need access to the resources.
+
+It is also worth stating that setting up AWS Cost Manager and Key Manager may be in your interest to setup as it allows for easier adminstration of the overall project.
