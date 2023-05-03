@@ -1,4 +1,4 @@
-# TweetSeeker v1.4
+# TweetSeeker version 1.4
 TweetSeeker is a Python-based Twitter Scrapper that automatically goes with a given Twitter account name/handle and 
 extracts account data into a file named ___@*insert-name-here*_account_data.csv___ with the account attributes (see "Account Data Format" below).
 Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
@@ -80,7 +80,10 @@ Next, the Tweet data and account data that was scrapped are saved as .csv files 
 Key manager and IAM users to be correctly setup and running with the Twitter API backend.
 (Please see instructions on this process below). 
 
-
+## Version History
+* TwitterSeeker_core_v.1.0.py - This is the basic core the Twitter Scrapper, it does not have a GUI or AWS support, it functions purly through code
+modifications to scrap the given account. This program required the Twitter API keys to be hard coded into its variables to correctly start (Also, Do not ever submit or share code with hardcoded secrets in it as this is a major breach of security). 
+* TweetSeeker_v1.0_alpha.py - Basic stable developer's build of TweetSeeker with a basic verifcation GUI and nothing else, the actual scrapping functions need to be hard coded in and this was originally an environment for my team to develop on. 
 
 
 ## How to make AWS Secrets Manager:
