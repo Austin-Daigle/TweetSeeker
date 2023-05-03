@@ -52,9 +52,10 @@ for the user to enter the desired Twitter account name to auto-scrap.
 <img src="https://user-images.githubusercontent.com/100094056/235819364-96c99884-2d57-4a14-8fc1-bd112591e430.png" alt="image" width="190"/>
 
 
+Next, the Tweet data and account data that was scrapped are saved as .csv files and the program displays a GUI with basic Twitter account analytics.
 
 
-
+![image](https://user-images.githubusercontent.com/100094056/235820591-2671c6dd-3df6-4b0d-9e73-7825baa60e52.png)
 
 
 
