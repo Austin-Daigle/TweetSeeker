@@ -21,8 +21,7 @@ the format of one tweet per line using the fields in order of below (see "Tweet 
         "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"]
 
 ## How to Use:
-Navigate through the repository and download the newest version of TweetSeeker 
-(in this case, TweetSeeker 1.4v) as a Python file. Either run the Python file
+Navigate through the repository and download the newest version of TweetSeeker (in this case, [TweetSeeker 1.4v](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py)) as a Python file. Either run the Python file
 via the command line or run it in an IDE.
 
 Once the latest version of TweetSeeker has been executed, program launch options
