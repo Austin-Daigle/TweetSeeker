@@ -50,7 +50,6 @@ Once the TweetSeeker verifies all of the Twitter API details, a text input box a
 for the user to enter the desired Twitter account name to auto-scrap. 
 
 <img src="https://user-images.githubusercontent.com/100094056/235819364-96c99884-2d57-4a14-8fc1-bd112591e430.png" alt="image" width="300"/>
-![image](https://user-images.githubusercontent.com/100094056/235819364-96c99884-2d57-4a14-8fc1-bd112591e430.png)
 
 
 
