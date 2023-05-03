@@ -1,20 +1,24 @@
 # TweetSeeker 1.4
 
 TweetSeeker is a Python-based Twitter Scrapper that automatically goes with a given Twitter account name/handle and 
-extracts account data into a file named @*insert-name-here*_account_data.csv with the account attributes (see below).
-Also, a second file named @*insert-name-here*_tweet_data.csv which contains all of the data from all of the tweets in
-the format of one tweet per line using the fields in order of below (see below)
+extracts account data into a file named ___@*insert-name-here*_account_data.csv___ with the account attributes (see "Account Data Format" below).
+Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
+the format of one tweet per line using the fields in order of below (see "Tweet Data format" below)
 
 
-        "accountID","accountName","screenName","description",
+**Account Data Format:**
+
+        ["accountID","accountName","screenName","description",
         "descriptionEntities","isVerified","followersCount","friendsCount",
         "listedCount","ratio","createdAt","timeZone","geoEnabled","location",
-        "profileURL","profileImageURL","hasProtectedTweets"
+        "profileURL","profileImageURL","hasProtectedTweets"]
         
-Tweet Data format:
-        "tweetID","createdAt","tweetText","language","tweetURL",
+**Tweet Data format:**
+
+
+        ["tweetID","createdAt","tweetText","language","tweetURL",
         "favoriteCount","retweetCount","mentionedUsers","tweetEntities",
-        "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"
+        "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"]
 
 ## How to Use:
 Navigate through the repository and download the newest version of TweetSeeker 
