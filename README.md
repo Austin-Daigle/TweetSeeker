@@ -54,7 +54,7 @@ for the user to enter the desired Twitter account name to auto-scrap.
 
 Next, the Tweet data and account data that was scrapped are saved as .csv files and the program displays a GUI with basic Twitter account analytics.
 
-* Twitter Account Data Prompt GUI:
+* Twitter Account Analytics GUI:
 
 ![image](https://user-images.githubusercontent.com/100094056/235820591-2671c6dd-3df6-4b0d-9e73-7825baa60e52.png)
 
