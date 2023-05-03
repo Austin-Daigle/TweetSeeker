@@ -121,7 +121,7 @@ __Instructions for creating the AWS Secrets Manager__
     
 12.  Review the information you have entered for accuracy and click on "**Store secret**" to create the secret.
 
-## Here are the steps for setting up IAM roles for admin and developer roles:
+__Here are the steps for setting up IAM roles for admin and developer roles:__
 
 1.  Log in to your AWS Management Console and navigate to the IAM service.
     
