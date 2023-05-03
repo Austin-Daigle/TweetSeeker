@@ -1,26 +1,23 @@
 # TweetSeeker 1.4
-
 TweetSeeker is a Python-based Twitter Scrapper that automatically goes with a given Twitter account name/handle and 
 extracts account data into a file named ___@*insert-name-here*_account_data.csv___ with the account attributes (see "Account Data Format" below).
 Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
 the format of one tweet per line using the fields in order of below (see "Tweet Data format" below)
 
-<br>
 
 **Account Data Format:**
-
-        ["accountID","accountName","screenName","description",
-        "descriptionEntities","isVerified","followersCount","friendsCount",
-        "listedCount","ratio","createdAt","timeZone","geoEnabled","location",
-        "profileURL","profileImageURL","hasProtectedTweets"]
-        
+```
+["accountID","accountName","screenName","description",
+"descriptionEntities","isVerified","followersCount","friendsCount",
+"listedCount","ratio","createdAt","timeZone","geoEnabled","location",
+"profileURL","profileImageURL","hasProtectedTweets"]
+```   
 **Tweet Data format:**
-
-
-        ["tweetID","createdAt","tweetText","language","tweetURL",
-        "favoriteCount","retweetCount","mentionedUsers","tweetEntities",
-        "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"]
-
+```
+["tweetID","createdAt","tweetText","language","tweetURL",
+"favoriteCount","retweetCount","mentionedUsers","tweetEntities",
+"tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"]
+```
 ## Dependencies:
 
 These are the packages that are required by the latest version of TweetSeeker:
@@ -43,7 +40,7 @@ These are the packages that are required by the latest version of TweetSeeker:
 ## How to Use:
 Download and run [TweetSeeker_Dependencies_installer_v.1.2.py](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_Dependencies_installer_v1.2.py) or manually install each of the dependency packages required (see above).
 
-Then, Navigate through the repository and download [TweetSeeker](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
+Then, Navigate through the repository and download [TweetSeeker_v.1.4](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
 
 Once the latest version of TweetSeeker has been executed, program launch options GUI will appear, asking the user to choose from either starting the program directly using Twitter API Developers Keys or to use AWS IAM Login details.* 
 
