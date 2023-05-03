@@ -10,6 +10,11 @@ the format of one tweet per line using the fields in order of below (see below)
         "descriptionEntities","isVerified","followersCount","friendsCount",
         "listedCount","ratio","createdAt","timeZone","geoEnabled","location",
         "profileURL","profileImageURL","hasProtectedTweets"
+        
+Tweet Data format:
+            "tweetID","createdAt","tweetText","language","tweetURL",
+            "favoriteCount","retweetCount","mentionedUsers","tweetEntities",
+            "tweetPhotoURLs","tweetVideoURLs","tweetURLs","geoData","coordinates"
 
 ## How to Use:
 Navigate through the repository and download the newest version of TweetSeeker 
