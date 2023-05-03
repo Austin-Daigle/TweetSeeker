@@ -1,8 +1,8 @@
-# TweetSeeker version 1.4
+# TweetSeeker version 1.4:
 TweetSeeker is a Python-based Twitter Scrapper that automatically goes with a given Twitter account name/handle and 
 extracts account data into a file named ___@*insert-name-here*_account_data.csv___ with the account attributes (see "Account Data Format" below).
 Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
-the format of one tweet per line using the fields in order of below (see "Tweet Data format" below)
+the format of one tweet per line using the fields in order below (see "Tweet Data format" below)
 
 
 **Account Data Format:**
@@ -42,14 +42,14 @@ Download and run [TweetSeeker_Dependencies_installer_v.1.2.py](https://github.co
 
 Then, Navigate through the repository and download [TweetSeeker_v.1.4](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
 
-Once the latest version of TweetSeeker has been executed, program launch options GUI will appear, asking the user to choose from either starting the program directly using Twitter API Developers Keys or to use AWS IAM Login details.* 
+Once the latest version of TweetSeeker has been executed, program launch options GUI will appear, asking the user to choose from either starting the program directly using Twitter API Developers Keys or using AWS IAM Login details.* 
 
 **Program Launch Options GUI:**
 
 <img src="https://user-images.githubusercontent.com/100094056/235785066-5f0fb226-c1d0-437d-963e-90d8b4c87861.png" alt="image" width="300"/>
 
 
-Once the details have been selected by the user, popups verifying AWS/Twitter API Key details will
+Once the user has selected the details, popups verifying AWS/Twitter API Key details will
 popup depending on the options chosen by the user (note the AWS Popup will not appear if the Twitter API key
 the option was selected instead of AWS):
 
@@ -80,19 +80,19 @@ Key manager and IAM users to be correctly setup and running with the Twitter API
 (Please see instructions on this process below). 
 
 ## Version History
-* TwitterSeeker_core_v.1.0.py - This is the basic core the Twitter Scrapper, it does not have a GUI or AWS support, it functions purly through code
-modifications to scrap the given account. This program required the Twitter API keys to be hard coded into its variables to correctly start (Also, Do not ever submit or share code with hardcoded secrets in it as this is a major breach of security). 
-* TweetSeeker_v1.0_alpha.py - Basic stable developer's build of TweetSeeker with a basic verifcation GUI and nothing else, the actual scrapping functions need to be hard coded in and this was originally an environment for my team to develop on. 
+* TwitterSeeker_core_v.1.0.py - This is the basic core of the Twitter Scrapper. It does not have a GUI or AWS support, it functions purely through code
+modifications to scrap the given account. This program required the Twitter API keys to be hard-coded into its variables to correctly start (Also, Do not ever submit or share code with hard-coded secrets in it as this is a major breach of security). 
+* TweetSeeker_v1.0_alpha.py - Basic stable developer's build of TweetSeeker with a basic verification GUI and nothing else. The actual scrapping functions need to be hard coded in, and this was originally an environment for my team to develop in. 
 * TweetSeeker_v1.1_alpha.py - Improvements to GUI, authentication for AWS to Twitter API integration.
-* TweetSeeker_v1.2_alpha.py - Improved Authentication Error handling and Twitter API error catching plus team contributions
+* TweetSeeker_v1.2_alpha.py - Improved Authentication Error handling and Twitter API error catching, plus team contributions
 * TweetSeeker_v1.3_alpha.py - Team contributions for analytical functions plus a user Twitter name inputs and analytics GUI.
 * TweetSeeker_v.1.4.py - This is the final stable release with all issues in the prior versions fixed.
 
 ## How to make AWS Secrets Manager:
-Keep in mind that there may be slight variations for this process depending on how Amazon Web Services updates/maintains its services. These instructions were
-created using the default documentation provided by AWS and should reviewed as well since backend implementations can be deprecated/changed for your instantiation of TweetSeeker.
+Keep in mind that there may be slight variations in this process depending on how Amazon Web Services updates/maintains its services. These instructions were
+Created using the default documentation provided by AWS and should be reviewed as well since backend implementations can be deprecated/changed for your instantiation of TweetSeeker.
 
-It is also worth stating that setting up AWS Cost Manager and Key Manager may be in your interest to setup as it allows for easier adminstration of the overall project.
+Setting up AWS Cost Manager and Key Manager may be in your interest to set up as it allows for easier administration of the overall project.
 
 __Instructions for creating the AWS Secrets Manager__
 
