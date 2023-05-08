@@ -40,7 +40,7 @@ These are the packages that are required by the latest version of TweetSeeker:
 ## How to Use:
 Download and run [TweetSeeker_Dependencies_installer_v.1.2.py](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_Dependencies_installer_v1.2.py) or manually install each of the dependency packages required (see above).
 
-Then, Navigate through the repository and download [TweetSeeker_v.1.4](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
+Then, Either Download the [Executable (.exe)](https://drive.google.com/file/d/1nbhE-bUZDXTm9kanUSp3DMTMp89otyTb/view?usp=sharing) or Navigate through the repository and download [TweetSeeker_v.1.4](https://github.com/Austin-Daigle/TweetSeeker/blob/main/TweetSeeker_v1.4.py) and either run the Python file via the command line or run it in an IDE.
 
 Once the latest version of TweetSeeker has been executed, program launch options GUI will appear, asking the user to choose from either starting the program directly using Twitter API Developers Keys or using AWS IAM Login details.* 
 
