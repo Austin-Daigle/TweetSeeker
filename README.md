@@ -4,7 +4,8 @@ extracts account data into a file named ___@*insert-name-here*_account_data.csv_
 Also, a second file named ___@*insert-name-here*_tweet_data.csv___ which contains all of the data from all of the tweets in
 the format of one tweet per line using the fields in order below (see "Tweet Data format" below)
 
-# End-of-life Notice:
+
+**End-of-life Notice:**
 Unfortunately, support for TweetSeeker has been discontinued. This decision stems from recent policy modifications within Elon Musk's Twitter Developer API. Twitter has implemented artificial limitations on per-person-per-session content access, and the backend infrastructure has undergone considerable restrictions, rendering it inaccessible to both general developers and hobbyist users.
 
 **Account Data Format:**
