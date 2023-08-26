@@ -19,9 +19,8 @@ the format of one tweet per line using the fields in order below (see "Tweet Dat
 ```
 
 **End-of-life Notice:**
+
 Unfortunately, support for TweetSeeker has been discontinued. This decision stems from recent policy modifications within Elon Musk's Twitter Developer API. Twitter has implemented artificial limitations on per-person-per-session content access, and the backend infrastructure has undergone considerable restrictions, rendering it inaccessible to both general developers and hobbyist users.
-
-
 
 ## Dependencies:
 
