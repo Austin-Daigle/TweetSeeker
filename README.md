@@ -89,7 +89,7 @@ modifications to scrap the given account. This program required the Twitter API 
 * TweetSeeker_v.1.4.py - This is the final stable release with all issues in the prior versions fixed.
 
 ## How to make AWS Secrets Manager:
-Keep in mind that there may be slight variations in this process depending on how Amazon Web Services updates/maintains its services. These instructions were
+Keep in mind that there may be slight variations in this process depending on how Amazon Web Services updates/maintains its services, also the source code of the original project may need to be modified to support a different AWS backend. These instructions were
 Created using the default documentation provided by AWS and should be reviewed as well since backend implementations can be deprecated/changed for your instantiation of TweetSeeker.
 
 Setting up AWS Cost Manager and Key Manager may be in your interest to set up as it allows for easier administration of the overall project.
